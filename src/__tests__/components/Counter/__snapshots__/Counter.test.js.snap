@@ -6,13 +6,13 @@ exports[`<Counter /> renders correctly 1`] = `
     0
   </h3>
   <button
-    className="button1"
+    className="Increment button"
     onClick={[Function]}
   >
     click for Increment
   </button>
   <button
-    className="button2"
+    className="Decrement button"
     onClick={[Function]}
   >
     click for Decrement

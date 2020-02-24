@@ -8,12 +8,19 @@ describe('<Counter />', ()=>{
         let app = shallow(<Counter />);
         expect(app.find('h3').exists()).toBeTruthy();
     });
-    it('increment the state on click',()=>{
-        // let app = mount(<Counter />);
-        // let button = app.find('buuton1');
-        // console.log(button)
-        // button.simulate('click');
-        // expect(app.counter).toBe(1)
+    it('Increment the state on click',()=>{
+        let app = mount(<Counter />);
+        let button = app.find('.Increment');
+        expect(app.state('counter')).toBe(0)
+        button.simulate('click');
+        expect(app.state('counter')).toBe(1)
+    });
+    it('Decrement the state on click',()=>{
+        let app = mount(<Counter />);
+        let button = app.find('.Decrement');
+        expect(app.state('counter')).toBe(0)
+        button.simulate('click');
+        expect(app.state('counter')).toBe(-1)
     });
     it('renders correctly', () => {
         const tree = renderer.create(<Counter />).toJSON();
