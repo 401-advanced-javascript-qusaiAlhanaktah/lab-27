@@ -1,0 +1,45 @@
+@import 'vars';
+
+
+
+body {
+  h1{
+    text-align: center;
+    color: $font-color;
+  }
+}
+body{
+  text-align: $text-align;
+  background-color: $background-color;
+}
+
+footer{
+  clear: both;
+  text-align: $text-align;
+  margin-left: 42%;
+  position: absolute;
+  bottom: 0%;
+  // padding: 200px;
+  border: 40px;
+  background-color: cornflowerblue;
+}
+
+
+
+h3{
+  text-align: $text-align;
+  color: $counting-color;
+  margin-top: 200px;
+}
+.button{
+  border-radius: 10px;
+  height: 50px;
+  transition-delay: 200ms;
+  width: 200px;
+}
+button:hover{
+background-color: coral;
+}
+section{
+  margin-right: 0em;
+}
