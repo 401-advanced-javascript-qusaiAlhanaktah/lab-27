@@ -24,6 +24,10 @@ npm i react enzyme gh-pages node-sass
 - Describe any tests that you did not complete, skipped, etc
      - evey test solved and another time i will cover more cases.
 
+### [Deployment Link in netlify](https://serene-newton-393d7d.netlify.com/)
+
+### [Deployment Link in GitHub](https://401-advanced-javascript-qusaialhanaktah.github.io/lab-27/)
+
 #### UML
 Link to an image of the UML for your application and response to events
-![White-Board]()
+![White-Board](assets/IMG_20200225_120237.jpg)
