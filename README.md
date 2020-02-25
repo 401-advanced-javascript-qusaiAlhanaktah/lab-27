@@ -23,6 +23,8 @@ npm i react enzyme gh-pages node-sass
      - jest --verbose --coverage
 - Describe any tests that you did not complete, skipped, etc
      - evey test solved and another time i will cover more cases.
+     
+### [Deployment Link](https://serene-newton-393d7d.netlify.com/)
 
 ### [Deployment Link in netlify](https://serene-newton-393d7d.netlify.com/)
 
